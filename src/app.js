@@ -27,10 +27,10 @@ window.onload = function() {
 // Econtre otra solucion con IA y informacion en internet
 
 // Definimos las partes del dominio
-const pronouns = ["the", "our"];
-const adjectives = ["great", "big"];
-const nouns = ["jogger", "racoon"];
-const extension = ".com";
+// const pronouns = ["the", "our"];
+// const adjectives = ["great", "big"];
+// const nouns = ["jogger", "racoon"];
+// const extension = ".com";
 
 // Generamos las combinaciones posibles
 // const generateDomains = () => {
