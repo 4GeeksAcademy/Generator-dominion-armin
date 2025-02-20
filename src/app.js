@@ -9,16 +9,16 @@ window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
 
-  let pronoun = ['the', 'our'];
-  let adj = ['great', 'big'];
-  let noun = ['jogger', 'racoon'];
+  const pronouns = ['the', 'our'];
+  const adjs = ['great', 'big'];
+  const nouns = ['jogger', 'racoon'];
   
-  let extension = ['.com'];
+  const extension = '.com';
   
-  for(let i = 0; i<pronoun.length; i++){
-      for(let j = 0; j < adj.length; j++){
-          for(let k = 0; k <noun.length; k++){
-              console.log('Los mejores dominios 2025 ', pronoun[i] + adj[j] + noun[k] + extension);
+  for(let i = 0; i<pronouns.length; i++){
+      for(let j = 0; j < adjs.length; j++){
+          for(let k = 0; k < nouns.length; k++){
+              console.log('Los mejores dominios 2025 ', pronouns[i] + adjs[j] + nouns[k] + extension);
           }
       }
   }
